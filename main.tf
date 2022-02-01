@@ -6,7 +6,6 @@ resource "aws_instance" "Demo" {
   instance_type = "t2.micro"
   key_name = "A_jenkins"
   tags = {
-    key = "Schedule"
-    Name = "Bangalore-office-hours"
+   "Schedule" = "Bangalore-office-hours"
   }
 }
